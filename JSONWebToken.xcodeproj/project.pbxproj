@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C00977F22FDF724005B8184 /* KTVJSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C00978022FDF728005B8184 /* KTVJSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */; };
 		7148BE9D1BFE2FA400CD17E7 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE9C1BFE2FA400CD17E7 /* TestUtils.swift */; };
 		7148BEA11BFF0B0B00CD17E7 /* SecKeyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BEA01BFF0B0B00CD17E7 /* SecKeyUtils.swift */; };
 		7148BEA31BFF6FF500CD17E7 /* ClaimValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BEA21BFF6FF500CD17E7 /* ClaimValidator.swift */; };
@@ -15,7 +17,6 @@
 		71642F471D9BB1F2008BBA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71642F451D9BB1F2008BBA95 /* Main.storyboard */; };
 		71642F491D9BB1F2008BBA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71642F481D9BB1F2008BBA95 /* Assets.xcassets */; };
 		71642F4C1D9BB1F2008BBA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71642F4A1D9BB1F2008BBA95 /* LaunchScreen.storyboard */; };
-		717ACFD21BFB6842004E01D0 /* JSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 717ACFD11BFB6842004E01D0 /* JSONWebToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		717ACFDE1BFB6842004E01D0 /* RSASSA_PKCS1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717ACFDD1BFB6842004E01D0 /* RSASSA_PKCS1Tests.swift */; };
 		717ACFE91BFB69EB004E01D0 /* JSONWebToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717ACFE81BFB69EB004E01D0 /* JSONWebToken.swift */; };
 		717ACFF51BFB8113004E01D0 /* NSData+Base64URLEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717ACFF41BFB8113004E01D0 /* NSData+Base64URLEncoding.swift */; };
@@ -37,7 +38,7 @@
 		718A7DFB1C06175200A819DD /* KeyUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A7DFA1C06175200A819DD /* KeyUtilsTests.swift */; };
 		718A7E021C06277E00A819DD /* public.exponent in Resources */ = {isa = PBXBuildFile; fileRef = 718A7E001C06277E00A819DD /* public.exponent */; };
 		718A7E031C06277E00A819DD /* public.modulus in Resources */ = {isa = PBXBuildFile; fileRef = 718A7E011C06277E00A819DD /* public.modulus */; };
-		7190899F1C036F6F00A7A209 /* JSONWebToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717ACFCE1BFB6842004E01D0 /* JSONWebToken.framework */; };
+		7190899F1C036F6F00A7A209 /* KTVJSONWebToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717ACFCE1BFB6842004E01D0 /* KTVJSONWebToken.framework */; };
 		719089A51C0455B700A7A209 /* GenerateSample.py in Resources */ = {isa = PBXBuildFile; fileRef = 719089A41C0455B700A7A209 /* GenerateSample.py */; };
 		719089A91C045B9700A7A209 /* HS256.jwt in Resources */ = {isa = PBXBuildFile; fileRef = 719089A61C045B9700A7A209 /* HS256.jwt */; };
 		719089AA1C045B9700A7A209 /* HS384.jwt in Resources */ = {isa = PBXBuildFile; fileRef = 719089A71C045B9700A7A209 /* HS384.jwt */; };
@@ -70,7 +71,6 @@
 		719089E01C04BD2B00A7A209 /* valid_missing_typ.jwt in Resources */ = {isa = PBXBuildFile; fileRef = 719089DC1C04BD2B00A7A209 /* valid_missing_typ.jwt */; };
 		719089E11C04BD2B00A7A209 /* invalid_typ.jwt in Resources */ = {isa = PBXBuildFile; fileRef = 719089DD1C04BD2B00A7A209 /* invalid_typ.jwt */; };
 		719156A21D1D3BE900FC55C9 /* JSONWebToken.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719156981D1D3BE900FC55C9 /* JSONWebToken.framework */; };
-		719156AF1D1D3BF900FC55C9 /* JSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 717ACFD11BFB6842004E01D0 /* JSONWebToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		719156B01D1D3C0F00FC55C9 /* TestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 71D9179F1C07573300FA5CDE /* TestCertificate.cer */; };
 		719156B11D1D3C0F00FC55C9 /* public.exponent in Resources */ = {isa = PBXBuildFile; fileRef = 718A7E001C06277E00A819DD /* public.exponent */; };
 		719156B21D1D3C0F00FC55C9 /* public.modulus in Resources */ = {isa = PBXBuildFile; fileRef = 718A7E011C06277E00A819DD /* public.modulus */; };
@@ -187,6 +187,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTVJSONWebToken.h; sourceTree = "<group>"; };
 		7148BE9C1BFE2FA400CD17E7 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		7148BEA01BFF0B0B00CD17E7 /* SecKeyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecKeyUtils.swift; sourceTree = "<group>"; };
 		7148BEA21BFF6FF500CD17E7 /* ClaimValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaimValidator.swift; sourceTree = "<group>"; };
@@ -198,8 +199,7 @@
 		71642F481D9BB1F2008BBA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71642F4B1D9BB1F2008BBA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71642F4D1D9BB1F2008BBA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		717ACFCE1BFB6842004E01D0 /* JSONWebToken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONWebToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		717ACFD11BFB6842004E01D0 /* JSONWebToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONWebToken.h; sourceTree = "<group>"; };
+		717ACFCE1BFB6842004E01D0 /* KTVJSONWebToken.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KTVJSONWebToken.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717ACFD31BFB6842004E01D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717ACFD81BFB6842004E01D0 /* JSONWebTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONWebTokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717ACFDD1BFB6842004E01D0 /* RSASSA_PKCS1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSASSA_PKCS1Tests.swift; sourceTree = "<group>"; };
@@ -297,7 +297,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7190899F1C036F6F00A7A209 /* JSONWebToken.framework in Frameworks */,
+				7190899F1C036F6F00A7A209 /* KTVJSONWebToken.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 		717ACFCF1BFB6842004E01D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				717ACFCE1BFB6842004E01D0 /* JSONWebToken.framework */,
+				717ACFCE1BFB6842004E01D0 /* KTVJSONWebToken.framework */,
 				717ACFD81BFB6842004E01D0 /* JSONWebTokenTests.xctest */,
 				719156981D1D3BE900FC55C9 /* JSONWebToken.framework */,
 				719156A11D1D3BE900FC55C9 /* JSONWebToken tvOSTests.xctest */,
@@ -359,7 +359,7 @@
 		717ACFD01BFB6842004E01D0 /* JSONWebToken */ = {
 			isa = PBXGroup;
 			children = (
-				717ACFD11BFB6842004E01D0 /* JSONWebToken.h */,
+				0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */,
 				717ACFD31BFB6842004E01D0 /* Info.plist */,
 				717ACFE81BFB69EB004E01D0 /* JSONWebToken.swift */,
 				717ACFFE1BFC8393004E01D0 /* SignatureAlgorithm.swift */,
@@ -486,8 +486,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				717ACFFC1BFC827E004E01D0 /* NSData+HMAC.h in Headers */,
+				0C00977F22FDF724005B8184 /* KTVJSONWebToken.h in Headers */,
 				71D1C1251BFE236F00211578 /* NSData+SHA.h in Headers */,
-				717ACFD21BFB6842004E01D0 /* JSONWebToken.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,8 +496,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				719156F61D1D3C9E00FC55C9 /* NSData+SHA.h in Headers */,
+				0C00978022FDF728005B8184 /* KTVJSONWebToken.h in Headers */,
 				719156F71D1D3C9E00FC55C9 /* NSData+HMAC.h in Headers */,
-				719156AF1D1D3BF900FC55C9 /* JSONWebToken.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +536,7 @@
 			);
 			name = JSONWebToken;
 			productName = JSONWebToken;
-			productReference = 717ACFCE1BFB6842004E01D0 /* JSONWebToken.framework */;
+			productReference = 717ACFCE1BFB6842004E01D0 /* KTVJSONWebToken.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		717ACFD71BFB6842004E01D0 /* JSONWebTokenTests */ = {
@@ -633,6 +633,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1072,7 +1073,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kreactive.JSONWebToken;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KTVJSONWebToken;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -1094,7 +1095,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kreactive.JSONWebToken;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KTVJSONWebToken;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
