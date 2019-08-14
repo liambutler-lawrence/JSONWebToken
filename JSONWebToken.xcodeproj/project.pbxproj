@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C00977F22FDF724005B8184 /* KTVJSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C00978022FDF728005B8184 /* KTVJSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */; };
+		5761FFF12304930C0065BB29 /* KTVJSONWebToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5761FFF02304930C0065BB29 /* KTVJSONWebToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7148BE9D1BFE2FA400CD17E7 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BE9C1BFE2FA400CD17E7 /* TestUtils.swift */; };
 		7148BEA11BFF0B0B00CD17E7 /* SecKeyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BEA01BFF0B0B00CD17E7 /* SecKeyUtils.swift */; };
 		7148BEA31BFF6FF500CD17E7 /* ClaimValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BEA21BFF6FF500CD17E7 /* ClaimValidator.swift */; };
@@ -187,7 +186,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTVJSONWebToken.h; sourceTree = "<group>"; };
+		5761FFF02304930C0065BB29 /* KTVJSONWebToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTVJSONWebToken.h; sourceTree = "<group>"; };
 		7148BE9C1BFE2FA400CD17E7 /* TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		7148BEA01BFF0B0B00CD17E7 /* SecKeyUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecKeyUtils.swift; sourceTree = "<group>"; };
 		7148BEA21BFF6FF500CD17E7 /* ClaimValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClaimValidator.swift; sourceTree = "<group>"; };
@@ -359,7 +358,7 @@
 		717ACFD01BFB6842004E01D0 /* JSONWebToken */ = {
 			isa = PBXGroup;
 			children = (
-				0C00977E22FDF724005B8184 /* KTVJSONWebToken.h */,
+				5761FFF02304930C0065BB29 /* KTVJSONWebToken.h */,
 				717ACFD31BFB6842004E01D0 /* Info.plist */,
 				717ACFE81BFB69EB004E01D0 /* JSONWebToken.swift */,
 				717ACFFE1BFC8393004E01D0 /* SignatureAlgorithm.swift */,
@@ -485,8 +484,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5761FFF12304930C0065BB29 /* KTVJSONWebToken.h in Headers */,
 				717ACFFC1BFC827E004E01D0 /* NSData+HMAC.h in Headers */,
-				0C00977F22FDF724005B8184 /* KTVJSONWebToken.h in Headers */,
 				71D1C1251BFE236F00211578 /* NSData+SHA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +495,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				719156F61D1D3C9E00FC55C9 /* NSData+SHA.h in Headers */,
-				0C00978022FDF728005B8184 /* KTVJSONWebToken.h in Headers */,
 				719156F71D1D3C9E00FC55C9 /* NSData+HMAC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
