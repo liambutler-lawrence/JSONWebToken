@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "717ACFCD1BFB6842004E01D0"
-               BuildableName = "KTVJSONWebToken.framework"
+               BuildableName = "JSONWebToken.framework"
                BlueprintName = "JSONWebToken"
                ReferencedContainer = "container:JSONWebToken.xcodeproj">
             </BuildableReference>
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "717ACFCD1BFB6842004E01D0"
-            BuildableName = "KTVJSONWebToken.framework"
+            BuildableName = "JSONWebToken.framework"
             BlueprintName = "JSONWebToken"
             ReferencedContainer = "container:JSONWebToken.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "717ACFCD1BFB6842004E01D0"
-            BuildableName = "KTVJSONWebToken.framework"
+            BuildableName = "JSONWebToken.framework"
             BlueprintName = "JSONWebToken"
             ReferencedContainer = "container:JSONWebToken.xcodeproj">
          </BuildableReference>
@@ -104,7 +104,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "717ACFCD1BFB6842004E01D0"
-            BuildableName = "KTVJSONWebToken.framework"
+            BuildableName = "JSONWebToken.framework"
             BlueprintName = "JSONWebToken"
             ReferencedContainer = "container:JSONWebToken.xcodeproj">
          </BuildableReference>
